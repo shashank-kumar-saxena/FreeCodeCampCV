@@ -1,0 +1,94 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 10vh;
+    background-color: #be3144;
+}
+.nav
+{
+    position:absolute;
+    right:10px;
+    top:25px;
+    margin: 0;
+    padding: 0;
+}
+.nav-tag
+{
+    font-size: 1.5em;
+    padding: 1em;
+    margin-right: -4px;
+    font-weight: 500;
+    font-family:sans-serif;
+    color: white;
+    text-decoration: none;
+    text-align: end;
+}
+.nav-tag:hover
+{
+    background-color: #90b8e6;
+}
+.body-intro
+{
+    position: relative;
+    top:0px;
+    min-height: 100vh;
+    background:linear-gradient(65deg,#3a3d40,black);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.body-intro .content
+{
+    color: white;
+    width: fit-content;
+    height: fit-content;
+}
+.body-intro .content .name
+{
+    font-size: 3em;
+    font-weight:600;
+    font-family: sans-serif;
+}
+.body-intro .content .role
+{
+    margin-top: 10px;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    color:#be3144
+}
+.body-projects
+{
+    color:white;
+    position: relative;
+    background-color: #90b8e6;
+    min-height: 90vh;
+    top:-22px;
+}
+.body-projects .heading
+{
+    position: relative;
+    top:20px;
+    text-align: center;
+}
+.body-projects .heading::before
+{
+    position:absolute;
+    top:40px;
+    content: "";
+    width:60%;
+    border-top:3px solid white;
+    border-radius: 25%;
+}
